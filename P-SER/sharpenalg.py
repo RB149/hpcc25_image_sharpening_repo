@@ -1,6 +1,7 @@
 from math import *
 import sharpenio as io
 import numpy as np
+import time
 
 """
 Sets the linear range of the sharpen filter as measured from any given pixel:
@@ -42,7 +43,7 @@ def dosharpen(pix, infile, outfile):
 
      # print(out current core and node location)
 
-#     tstart = MPI.Wtime()
+    tstart = time.time()
 
     pixcount = 0
 
@@ -58,6 +59,8 @@ def dosharpen(pix, infile, outfile):
 
             pixcount += 1
       
+    tstop = time.time()
+    tdiff = tstop - tstart
     print("... finished\n")
       
     # apply the filter and writes the sharpened image to file
@@ -76,7 +79,9 @@ def dosharpen(pix, infile, outfile):
     io.pgmwrite(outfile, sharpCropped, nx-2*d, ny-2*d)
 
     print("... done\n")
-#    print("Calculation time was ", str(time), " seconds")
+    print(", str(time), " seconds")
+
+    print("Calculation time was ", '{0:.2f}'.format(tdiff), " seconds")
     
        
 def filter(d, i, j):
