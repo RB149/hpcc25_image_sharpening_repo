@@ -18,5 +18,8 @@ purely serial part (file IO) and a parallel part (embarrassingly
 parallel calculation). The program could easily be made orders of
 magnitude faster with some simple modifications. It is deliberately
 written in a very naive manner so that it runs for a measurable amount
-of time. Typical timings for the compiled serial program will be
-around 5 seconds, with between 0.1 and 0.2 seconds for IO. 
+of time.
+
+Typical timings for the compiled serial program will be around 5
+seconds, with between 0.1 and 0.2 seconds for IO. The Python version
+can take up to 5 minutes (well, it *is* Python)!
