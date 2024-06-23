@@ -79,8 +79,6 @@ def dosharpen(pix, infile, outfile):
     io.pgmwrite(outfile, sharpCropped, nx-2*d, ny-2*d)
 
     print("... done\n")
-    print(", str(time), " seconds")
-
     print("Calculation time was ", '{0:.2f}'.format(tdiff), " seconds")
     
        
