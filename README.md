@@ -22,4 +22,4 @@ of time.
 
 Typical timings for the compiled serial program will be around 5
 seconds, with between 0.1 and 0.2 seconds for IO. The Python version
-can take up to 5 minutes (well, it *is* Python)!
+can take several minutes (well, it *is* Python)!
