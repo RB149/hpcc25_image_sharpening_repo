@@ -10,6 +10,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --partition=standard
 #SBATCH --qos=short
+#SBATCH --qos=reservation
+#SBATCH --reservation=tc069_1525575
 
 # Load the default HPE MPI environment
 module load mpt

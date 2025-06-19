@@ -1,0 +1,22 @@
+Loading intel-20.4/compilers
+  Loading requirement: intel-license gcc/10.2.0 intel-20.4/cc intel-20.4/fc
+
+Image sharpening code running on 4 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.389786 seconds
+Overall run time was 0.533831 seconds
