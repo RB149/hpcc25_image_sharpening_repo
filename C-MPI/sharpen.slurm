@@ -4,7 +4,7 @@
 #SBATCH --job-name=sharpen
 #SBATCH --time=0:01:0
 #SBATCH --exclusive
-#SBATCH --nodes=1
+#SBATCH --nodes=2
 #SBATCH --ntasks=4
 #SBATCH --tasks-per-node=4
 #SBATCH --cpus-per-task=1
