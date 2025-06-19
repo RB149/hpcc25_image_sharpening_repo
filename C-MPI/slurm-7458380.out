@@ -1,0 +1,168 @@
+Loading intel-20.4/compilers
+  Loading requirement: intel-license gcc/10.2.0 intel-20.4/cc intel-20.4/fc
+srun: error: Invalid numeric value "{10" for --ntasks-per-node.
+
+Image sharpening code running on 24 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n9>
+Rank 2 on core 1,37 of node <r2i2n9>
+Rank 7 on core 21,57 of node <r2i2n9>
+Rank 9 on core 22,58 of node <r2i2n9>
+Rank 1 on core 18,54 of node <r2i2n9>
+Rank 3 on core 19,55 of node <r2i2n9>
+Rank 4 on core 2,38 of node <r2i2n9>
+Rank 5 on core 20,56 of node <r2i2n9>
+Rank 6 on core 3,39 of node <r2i2n9>
+Rank 8 on core 4,40 of node <r2i2n9>
+Rank 10 on core 5,41 of node <r2i2n9>
+Rank 11 on core 23,59 of node <r2i2n9>
+Rank 14 on core 1,37 of node <r2i2n10>
+Rank 17 on core 20,56 of node <r2i2n10>
+Rank 19 on core 21,57 of node <r2i2n10>
+Rank 12 on core 0,36 of node <r2i2n10>
+Rank 13 on core 18,54 of node <r2i2n10>
+Rank 15 on core 19,55 of node <r2i2n10>
+Rank 16 on core 2,38 of node <r2i2n10>
+Rank 18 on core 3,39 of node <r2i2n10>
+Rank 20 on core 4,40 of node <r2i2n10>
+Rank 21 on core 22,58 of node <r2i2n10>
+Rank 22 on core 5,41 of node <r2i2n10>
+Rank 23 on core 23,59 of node <r2i2n10>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.077304 seconds
+Overall run time was 0.241095 seconds
+
+Image sharpening code running on 32 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n9>
+Rank 4 on core 2,38 of node <r2i2n9>
+Rank 10 on core 5,41 of node <r2i2n9>
+Rank 14 on core 7,43 of node <r2i2n9>
+Rank 2 on core 1,37 of node <r2i2n9>
+Rank 3 on core 19,55 of node <r2i2n9>
+Rank 5 on core 20,56 of node <r2i2n9>
+Rank 6 on core 3,39 of node <r2i2n9>
+Rank 7 on core 21,57 of node <r2i2n9>
+Rank 8 on core 4,40 of node <r2i2n9>
+Rank 12 on core 6,42 of node <r2i2n9>
+Rank 1 on core 18,54 of node <r2i2n9>
+Rank 9 on core 22,58 of node <r2i2n9>
+Rank 26 on core 5,41 of node <r2i2n10>
+Rank 11 on core 23,59 of node <r2i2n9>
+Rank 13 on core 24,60 of node <r2i2n9>
+Rank 15 on core 25,61 of node <r2i2n9>
+Rank 27 on core 23,59 of node <r2i2n10>
+Rank 16 on core 0,36 of node <r2i2n10>
+Rank 17 on core 18,54 of node <r2i2n10>
+Rank 18 on core 1,37 of node <r2i2n10>
+Rank 19 on core 19,55 of node <r2i2n10>
+Rank 20 on core 2,38 of node <r2i2n10>
+Rank 21 on core 20,56 of node <r2i2n10>
+Rank 22 on core 3,39 of node <r2i2n10>
+Rank 23 on core 21,57 of node <r2i2n10>
+Rank 24 on core 4,40 of node <r2i2n10>
+Rank 25 on core 22,58 of node <r2i2n10>
+Rank 28 on core 6,42 of node <r2i2n10>
+Rank 29 on core 24,60 of node <r2i2n10>
+Rank 30 on core 7,43 of node <r2i2n10>
+Rank 31 on core 25,61 of node <r2i2n10>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.058798 seconds
+Overall run time was 0.177225 seconds
+
+Image sharpening code running on 48 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n9>
+Rank 2 on core 1,37 of node <r2i2n9>
+Rank 1 on core 18,54 of node <r2i2n9>
+Rank 6 on core 3,39 of node <r2i2n9>
+Rank 10 on core 5,41 of node <r2i2n9>
+Rank 18 on core 9,45 of node <r2i2n9>
+Rank 20 on core 10,46 of node <r2i2n9>
+Rank 3 on core 19,55 of node <r2i2n9>
+Rank 5 on core 20,56 of node <r2i2n9>
+Rank 7 on core 21,57 of node <r2i2n9>
+Rank 8 on core 4,40 of node <r2i2n9>
+Rank 9 on core 22,58 of node <r2i2n9>
+Rank 11 on core 23,59 of node <r2i2n9>
+Rank 27 on core 19,55 of node <r2i2n10>
+Rank 12 on core 6,42 of node <r2i2n9>
+Rank 13 on core 24,60 of node <r2i2n9>
+Rank 14 on core 7,43 of node <r2i2n9>
+Rank 16 on core 8,44 of node <r2i2n9>
+Rank 17 on core 26,62 of node <r2i2n9>
+Rank 19 on core 27,63 of node <r2i2n9>
+Rank 21 on core 28,64 of node <r2i2n9>
+Rank 22 on core 11,47 of node <r2i2n9>
+Rank 23 on core 29,65 of node <r2i2n9>
+Rank 4 on core 2,38 of node <r2i2n9>
+Rank 15 on core 25,61 of node <r2i2n9>
+Rank 29 on core 20,56 of node <r2i2n10>
+Rank 31 on core 21,57 of node <r2i2n10>
+Rank 37 on core 24,60 of node <r2i2n10>
+Rank 40 on core 8,44 of node <r2i2n10>
+Rank 43 on core 27,63 of node <r2i2n10>
+Rank 24 on core 0,36 of node <r2i2n10>
+Rank 25 on core 18,54 of node <r2i2n10>
+Rank 26 on core 1,37 of node <r2i2n10>
+Rank 28 on core 2,38 of node <r2i2n10>
+Rank 30 on core 3,39 of node <r2i2n10>
+Rank 32 on core 4,40 of node <r2i2n10>
+Rank 33 on core 22,58 of node <r2i2n10>
+Rank 34 on core 5,41 of node <r2i2n10>
+Rank 35 on core 23,59 of node <r2i2n10>
+Rank 36 on core 6,42 of node <r2i2n10>
+Rank 38 on core 7,43 of node <r2i2n10>
+Rank 39 on core 25,61 of node <r2i2n10>
+Rank 41 on core 26,62 of node <r2i2n10>
+Rank 42 on core 9,45 of node <r2i2n10>
+Rank 44 on core 10,46 of node <r2i2n10>
+Rank 45 on core 28,64 of node <r2i2n10>
+Rank 46 on core 11,47 of node <r2i2n10>
+Rank 47 on core 29,65 of node <r2i2n10>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.042354 seconds
+Overall run time was 0.162416 seconds
+srun: error: Invalid numeric value "32}" for --ntasks-per-node.

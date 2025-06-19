@@ -1,0 +1,456 @@
+Loading intel-20.4/compilers
+  Loading requirement: intel-license gcc/10.2.0 intel-20.4/cc intel-20.4/fc
+
+Image sharpening code running on 2 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 1 on core 0,36 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.698778 seconds
+Overall run time was 0.828320 seconds
+
+Image sharpening code running on 4 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 2 on core 0,36 of node <r2i2n1>
+Rank 3 on core 18,54 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.376153 seconds
+Overall run time was 0.474128 seconds
+
+Image sharpening code running on 8 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 4 on core 0,36 of node <r2i2n1>
+Rank 5 on core 18,54 of node <r2i2n1>
+Rank 6 on core 1,37 of node <r2i2n1>
+Rank 7 on core 19,55 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.197083 seconds
+Overall run time was 0.299114 seconds
+
+Image sharpening code running on 20 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 15 on core 20,56 of node <r2i2n1>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 10 on core 0,36 of node <r2i2n1>
+Rank 11 on core 18,54 of node <r2i2n1>
+Rank 12 on core 1,37 of node <r2i2n1>
+Rank 13 on core 19,55 of node <r2i2n1>
+Rank 14 on core 2,38 of node <r2i2n1>
+Rank 16 on core 3,39 of node <r2i2n1>
+Rank 17 on core 21,57 of node <r2i2n1>
+Rank 18 on core 4,40 of node <r2i2n1>
+Rank 19 on core 22,58 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.094701 seconds
+Overall run time was 0.207634 seconds
+
+Image sharpening code running on 24 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 10 on core 5,41 of node <r2i2n0>
+Rank 11 on core 23,59 of node <r2i2n0>
+Rank 14 on core 1,37 of node <r2i2n1>
+Rank 19 on core 21,57 of node <r2i2n1>
+Rank 22 on core 5,41 of node <r2i2n1>
+Rank 12 on core 0,36 of node <r2i2n1>
+Rank 13 on core 18,54 of node <r2i2n1>
+Rank 15 on core 19,55 of node <r2i2n1>
+Rank 16 on core 2,38 of node <r2i2n1>
+Rank 17 on core 20,56 of node <r2i2n1>
+Rank 18 on core 3,39 of node <r2i2n1>
+Rank 20 on core 4,40 of node <r2i2n1>
+Rank 21 on core 22,58 of node <r2i2n1>
+Rank 23 on core 23,59 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.080981 seconds
+Overall run time was 0.197980 seconds
+
+Image sharpening code running on 32 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 12 on core 6,42 of node <r2i2n0>
+Rank 14 on core 7,43 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 11 on core 23,59 of node <r2i2n0>
+Rank 23 on core 21,57 of node <r2i2n1>
+Rank 15 on core 25,61 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 10 on core 5,41 of node <r2i2n0>
+Rank 13 on core 24,60 of node <r2i2n0>
+Rank 28 on core 6,42 of node <r2i2n1>
+Rank 16 on core 0,36 of node <r2i2n1>
+Rank 17 on core 18,54 of node <r2i2n1>
+Rank 18 on core 1,37 of node <r2i2n1>
+Rank 19 on core 19,55 of node <r2i2n1>
+Rank 20 on core 2,38 of node <r2i2n1>
+Rank 21 on core 20,56 of node <r2i2n1>
+Rank 22 on core 3,39 of node <r2i2n1>
+Rank 24 on core 4,40 of node <r2i2n1>
+Rank 25 on core 22,58 of node <r2i2n1>
+Rank 26 on core 5,41 of node <r2i2n1>
+Rank 27 on core 23,59 of node <r2i2n1>
+Rank 29 on core 24,60 of node <r2i2n1>
+Rank 30 on core 7,43 of node <r2i2n1>
+Rank 31 on core 25,61 of node <r2i2n1>
+... finished
+
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.061577 seconds
+Overall run time was 0.182604 seconds
+
+Image sharpening code running on 48 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 18 on core 9,45 of node <r2i2n0>
+Rank 19 on core 27,63 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 13 on core 24,60 of node <r2i2n0>
+Rank 21 on core 28,64 of node <r2i2n0>
+Rank 22 on core 11,47 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 32 on core 4,40 of node <r2i2n1>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 10 on core 5,41 of node <r2i2n0>
+Rank 11 on core 23,59 of node <r2i2n0>
+Rank 12 on core 6,42 of node <r2i2n0>
+Rank 14 on core 7,43 of node <r2i2n0>
+Rank 15 on core 25,61 of node <r2i2n0>
+Rank 16 on core 8,44 of node <r2i2n0>
+Rank 17 on core 26,62 of node <r2i2n0>
+Rank 20 on core 10,46 of node <r2i2n0>
+Rank 23 on core 29,65 of node <r2i2n0>
+Rank 39 on core 25,61 of node <r2i2n1>
+Rank 24 on core 0,36 of node <r2i2n1>
+... finished
+
+Rank 25 on core 18,54 of node <r2i2n1>
+Rank 26 on core 1,37 of node <r2i2n1>
+Rank 27 on core 19,55 of node <r2i2n1>
+Rank 28 on core 2,38 of node <r2i2n1>
+Rank 29 on core 20,56 of node <r2i2n1>
+Rank 30 on core 3,39 of node <r2i2n1>
+Rank 31 on core 21,57 of node <r2i2n1>
+Rank 33 on core 22,58 of node <r2i2n1>
+Rank 34 on core 5,41 of node <r2i2n1>
+Rank 35 on core 23,59 of node <r2i2n1>
+Rank 36 on core 6,42 of node <r2i2n1>
+Rank 37 on core 24,60 of node <r2i2n1>
+Rank 38 on core 7,43 of node <r2i2n1>
+Rank 40 on core 8,44 of node <r2i2n1>
+Rank 41 on core 26,62 of node <r2i2n1>
+Rank 42 on core 9,45 of node <r2i2n1>
+Rank 43 on core 27,63 of node <r2i2n1>
+Rank 44 on core 10,46 of node <r2i2n1>
+Rank 45 on core 28,64 of node <r2i2n1>
+Rank 46 on core 11,47 of node <r2i2n1>
+Rank 47 on core 29,65 of node <r2i2n1>
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.041974 seconds
+Overall run time was 0.165882 seconds
+
+Image sharpening code running on 64 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 12 on core 6,42 of node <r2i2n0>
+Rank 18 on core 9,45 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 32 on core 0,36 of node <r2i2n1>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 16 on core 8,44 of node <r2i2n0>
+Rank 17 on core 26,62 of node <r2i2n0>
+Rank 25 on core 30,66 of node <r2i2n0>
+Rank 26 on core 13,49 of node <r2i2n0>
+Rank 28 on core 14,50 of node <r2i2n0>
+Rank 31 on core 33,69 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 10 on core 5,41 of node <r2i2n0>
+Rank 11 on core 23,59 of node <r2i2n0>
+Rank 13 on core 24,60 of node <r2i2n0>
+Rank 14 on core 7,43 of node <r2i2n0>
+Rank 15 on core 25,61 of node <r2i2n0>
+Rank 19 on core 27,63 of node <r2i2n0>
+Rank 20 on core 10,46 of node <r2i2n0>
+Rank 21 on core 28,64 of node <r2i2n0>
+Rank 22 on core 11,47 of node <r2i2n0>
+Rank 30 on core 15,51 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 23 on core 29,65 of node <r2i2n0>
+Rank 24 on core 12,48 of node <r2i2n0>
+Rank 27 on core 31,67 of node <r2i2n0>
+Rank 29 on core 32,68 of node <r2i2n0>
+... finished
+
+Rank 39 on core 21,57 of node <r2i2n1>
+Rank 33 on core 18,54 of node <r2i2n1>
+Rank 35 on core 19,55 of node <r2i2n1>
+Rank 36 on core 2,38 of node <r2i2n1>
+Rank 42 on core 5,41 of node <r2i2n1>
+Rank 43 on core 23,59 of node <r2i2n1>
+Rank 47 on core 25,61 of node <r2i2n1>
+Rank 48 on core 8,44 of node <r2i2n1>
+Rank 49 on core 26,62 of node <r2i2n1>
+Rank 51 on core 27,63 of node <r2i2n1>
+Rank 53 on core 28,64 of node <r2i2n1>
+Rank 54 on core 11,47 of node <r2i2n1>
+Rank 55 on core 29,65 of node <r2i2n1>
+Rank 56 on core 12,48 of node <r2i2n1>
+Rank 57 on core 30,66 of node <r2i2n1>
+Rank 59 on core 31,67 of node <r2i2n1>
+Rank 61 on core 32,68 of node <r2i2n1>
+Rank 34 on core 1,37 of node <r2i2n1>
+Rank 37 on core 20,56 of node <r2i2n1>
+Rank 38 on core 3,39 of node <r2i2n1>
+Rank 40 on core 4,40 of node <r2i2n1>
+Rank 41 on core 22,58 of node <r2i2n1>
+Rank 44 on core 6,42 of node <r2i2n1>
+Rank 45 on core 24,60 of node <r2i2n1>
+Rank 46 on core 7,43 of node <r2i2n1>
+Rank 50 on core 9,45 of node <r2i2n1>
+Rank 52 on core 10,46 of node <r2i2n1>
+Rank 58 on core 13,49 of node <r2i2n1>
+Rank 60 on core 14,50 of node <r2i2n1>
+Rank 62 on core 15,51 of node <r2i2n1>
+Rank 63 on core 33,69 of node <r2i2n1>
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.033591 seconds
+Overall run time was 0.159485 seconds
+
+Image sharpening code running on 72 processor(s)
+
+Input file is: fuzzy.pgm
+Image size is 564 x 770
+
+Using a filter of size 17 x 17
+
+Reading image file: fuzzy.pgm
+... done
+
+Starting calculation ...
+Rank 0 on core 0,36 of node <r2i2n0>
+Rank 2 on core 1,37 of node <r2i2n0>
+Rank 16 on core 8,44 of node <r2i2n0>
+Rank 4 on core 2,38 of node <r2i2n0>
+Rank 11 on core 23,59 of node <r2i2n0>
+Rank 36 on core 0,36 of node <r2i2n1>
+Rank 15 on core 25,61 of node <r2i2n0>
+Rank 18 on core 9,45 of node <r2i2n0>
+Rank 1 on core 18,54 of node <r2i2n0>
+Rank 5 on core 20,56 of node <r2i2n0>
+Rank 13 on core 24,60 of node <r2i2n0>
+Rank 14 on core 7,43 of node <r2i2n0>
+Rank 23 on core 29,65 of node <r2i2n0>
+Rank 27 on core 31,67 of node <r2i2n0>
+Rank 28 on core 14,50 of node <r2i2n0>
+Rank 31 on core 33,69 of node <r2i2n0>
+Rank 34 on core 17,53 of node <r2i2n0>
+Rank 3 on core 19,55 of node <r2i2n0>
+Rank 6 on core 3,39 of node <r2i2n0>
+Rank 7 on core 21,57 of node <r2i2n0>
+Rank 8 on core 4,40 of node <r2i2n0>
+Rank 9 on core 22,58 of node <r2i2n0>
+Rank 10 on core 5,41 of node <r2i2n0>
+Rank 12 on core 6,42 of node <r2i2n0>
+Rank 17 on core 26,62 of node <r2i2n0>
+Rank 19 on core 27,63 of node <r2i2n0>
+Rank 20 on core 10,46 of node <r2i2n0>
+Rank 21 on core 28,64 of node <r2i2n0>
+Rank 22 on core 11,47 of node <r2i2n0>
+Rank 24 on core 12,48 of node <r2i2n0>
+Rank 25 on core 30,66 of node <r2i2n0>
+Rank 26 on core 13,49 of node <r2i2n0>
+Rank 29 on core 32,68 of node <r2i2n0>
+Rank 30 on core 15,51 of node <r2i2n0>
+Rank 32 on core 16,52 of node <r2i2n0>
+Rank 33 on core 34,70 of node <r2i2n0>
+Rank 35 on core 35,71 of node <r2i2n0>
+... finished
+
+Rank 37 on core 18,54 of node <r2i2n1>
+Rank 38 on core 1,37 of node <r2i2n1>
+Rank 39 on core 19,55 of node <r2i2n1>
+Rank 41 on core 20,56 of node <r2i2n1>
+Rank 42 on core 3,39 of node <r2i2n1>
+Rank 44 on core 4,40 of node <r2i2n1>
+Rank 46 on core 5,41 of node <r2i2n1>
+Rank 47 on core 23,59 of node <r2i2n1>
+Rank 49 on core 24,60 of node <r2i2n1>
+Rank 50 on core 7,43 of node <r2i2n1>
+Rank 52 on core 8,44 of node <r2i2n1>
+Rank 53 on core 26,62 of node <r2i2n1>
+Rank 54 on core 9,45 of node <r2i2n1>
+Rank 55 on core 27,63 of node <r2i2n1>
+Rank 56 on core 10,46 of node <r2i2n1>
+Rank 58 on core 11,47 of node <r2i2n1>
+Rank 59 on core 29,65 of node <r2i2n1>
+Rank 63 on core 31,67 of node <r2i2n1>
+Rank 65 on core 32,68 of node <r2i2n1>
+Rank 67 on core 33,69 of node <r2i2n1>
+Rank 68 on core 16,52 of node <r2i2n1>
+Rank 69 on core 34,70 of node <r2i2n1>
+Rank 70 on core 17,53 of node <r2i2n1>
+Rank 71 on core 35,71 of node <r2i2n1>
+Rank 40 on core 2,38 of node <r2i2n1>
+Rank 43 on core 21,57 of node <r2i2n1>
+Rank 45 on core 22,58 of node <r2i2n1>
+Rank 48 on core 6,42 of node <r2i2n1>
+Rank 51 on core 25,61 of node <r2i2n1>
+Rank 57 on core 28,64 of node <r2i2n1>
+Rank 60 on core 12,48 of node <r2i2n1>
+Rank 61 on core 30,66 of node <r2i2n1>
+Rank 62 on core 13,49 of node <r2i2n1>
+Rank 64 on core 14,50 of node <r2i2n1>
+Rank 66 on core 15,51 of node <r2i2n1>
+Writing output file: sharpened.pgm
+
+... done
+
+Calculation time was 0.029339 seconds
+Overall run time was 0.158585 seconds

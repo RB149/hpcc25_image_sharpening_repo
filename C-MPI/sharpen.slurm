@@ -1,15 +1,13 @@
 #!/bin/bash
-
-# Slurm job options (name, compute nodes, job time)
 #SBATCH --job-name=sharpen
-#SBATCH --time=0:01:0
+#SBATCH --time=0:05:0
 #SBATCH --exclusive
 #SBATCH --nodes=2
-#SBATCH --ntasks=4
-#SBATCH --tasks-per-node=4
-#SBATCH --cpus-per-task=1
+##SBATCH --ntasks=4
+##SBATCH --tasks-per-node=4
+##SBATCH --cpus-per-task=1
 #SBATCH --partition=standard
-#SBATCH --qos=short
+##SBATCH --qos=short
 #SBATCH --qos=reservation
 #SBATCH --reservation=tc069_1525575
 
@@ -28,5 +26,8 @@ export OMP_NUM_THREADS=1
 # Launch the parallel job
 #   Using 4 MPI processes on 1 node
 #   srun picks up the distribution from the sbatch options
-srun --cpu-bind=cores ./sharpen
+for i in 1 2 4 10 12 16 24 32 36
+do
+srun --cpu-bind=cores --tasks-per-node=$i ./sharpen
+done
 

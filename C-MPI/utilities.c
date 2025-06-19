@@ -95,9 +95,9 @@ void printlocation()
 #if defined(C_HYBRID_PRACTICAL) || defined(F_HYBRID_PRACTICAL)
 /*    printf("Rank %d / thread %d on core %s of node <%s>\n", rank, thread, clbuf, hnbuf); */
 #elif defined(C_MPI_PRACTICAL) || defined(F_MPI_PRACTICAL) || defined(C_OPENSHMEM_PRACTICAL) || defined(F_OPENSHMEM_PRACTICAL)
-/*    printf("Rank %d on core %s of node <%s>\n", rank, clbuf, hnbuf); */
+    printf("Rank %d on core %s of node <%s>\n", rank, clbuf, hnbuf);
 #elif defined(C_OPENMP_PRACTICAL) || defined(F_OPENMP_PRACTICAL)
-/*    printf("Thread %d on core %s\n", thread, clbuf); */
+    printf("Thread %d on core %s\n", thread, clbuf);
 #else /* if defined(C_SERIAL_PRACTICAL) || defined(F_SERIAL_PRACTICAL) */
 /*    printf("Program on core %s\n",clbuf); */
 #endif /* C_HYBRID_PRACTICAL || F_HYBRID_PRACTICAL */
@@ -128,3 +128,4 @@ double wtime(void)
 
 #endif /*    C_OPENSHMEM_PRACTICAL || F_OPENSHMEM_PRACTICAL 
           || C_SERIAL_PRACTICAL    || F_SERIAL_PRACTICAL    */
+
