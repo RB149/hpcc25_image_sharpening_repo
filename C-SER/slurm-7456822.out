@@ -1,5 +1,0 @@
-Loading intel-20.4/compilers
-  Loading requirement: intel-license gcc/10.2.0 intel-20.4/cc intel-20.4/fc
-slurmstepd: error: execve(): /mnt/lustre/e1000/home/tc069/tc069/tc069reb/c_intro/hpcss24-sharpen/C-SER/./sharpen: No such file or directory
-srun: error: r1i6n14: task 0: Exited with exit code 2
-srun: launch/slurm: _step_signal: Terminating StepId=7456822.0
